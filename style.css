@@ -1,0 +1,30 @@
+.obrazky {
+  display: flex; /* Zarovná obrázky vedľa seba */
+  justify-content: center; /* Zarovná ich na stred */
+  align-items: center; /* Zabezpečí rovnakú výšku */
+  gap: 20px; /* Medzera medzi obrázkami */
+  margin: 180px;
+}
+
+.obrazok {
+  width: 50%; /* Každý obrázok zaberie polovicu šírky */
+  height: 300px; /* Nastaví rovnakú výšku */
+}
+
+.obrazok img {
+  width: 100%; /* Obrázok sa roztiahne na šírku kontajnera */
+  height: 100%; /* Obrázok sa roztiahne na výšku kontajnera */
+  object-fit: cover; /* Orezanie, aby sa zachoval pekný vzhľad */
+}
+
+.skore {
+  font-size: 90px;
+  text-align: center;
+  margin-top: -60px;
+  color: aliceblue;
+  text-shadow: 
+  -2px -2px 0 black,  2px -2px 0 black,  
+  -2px  2px 0 black,  2px  2px 0 black,
+  -2px  0px 0 black,   2px  0px 0 black,  
+   0px -2px 0 black,   0px  2px 0 black;
+}
