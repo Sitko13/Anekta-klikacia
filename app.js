@@ -11,6 +11,15 @@ anketa.forEach (function(anketa) {
         skore = skore + 1;
         skoreElement.textContent = skore;
     });
+
+    anketa.addEventListener("mouseover", function() {
+        this.classList.add("zmensenie");
+    });
+    
+    anketa.addEventListener("mouseout", function() {
+        this.classList.remove("zmensenie");
+    });
+
 });
 
 
